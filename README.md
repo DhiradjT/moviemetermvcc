@@ -1,2 +1,2 @@
-# moviemetermvcc
-moviemeter met mvc
+# moviemeter
+In deze repository vind je het moviemeter project

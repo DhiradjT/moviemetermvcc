@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@600&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/*e.g font families:
+
+    font-family: 'Fjalla One', sans-serif;
+
+    font-family: 'Kanit', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+
+* {
+    border-radius: 0 !important;
+  }
+
+body {
+    background-color:#030304;
+}
+
+.navbar-brand {
+    font-family: 'Kanit', sans-serif;
+}
+
+.sep {
+    color: #FFD60A;
+}
+
+.nav-link {
+    font-family: 'Kanit', sans-serif;
+}
+
+.dropdown-item {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.navbar-inner {
+    background:transparent;
+}
+
+
+.carousel-item img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.current {
+    font-family: 'Kanit', sans-serif;
+}
+
+.current-movies {
+    margin-top: 200px;
+}
+
+.card-title {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.card-subtitle {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: none;
+}
+
+.line {
+    border-bottom: 5px solid #FFD60A;
+    border-radius: 200px;
+}
+
+.release {
+    color: #FFD60A;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+.coming-movies {
+    margin-top: 200px;
+}
+
+.footer-section  {
+    background-color: #18191b;
+    margin-top: 200px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #7a7c80;
+}
+
+a:hover {
+    color: white;
+}
+
+.brand {
+    font-family: 'Kanit', sans-serif;
+}
+
+.brand2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.business-text {
+    color: #7a7c80;
+}
+
+.help-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-outline-warning {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.movie-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.banner img {
+    width: 100%;
+    opacity: 0.7;
+    height: 50%;
+}
+
+.review-text {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.section.trailer {
+    background-image: url(./movie-banners/TechinTwo-Popcorn.webp);
+}
+
+
+.about-h2 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.about-p {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.hero-about {
+    position: relative;
+    bottom: 100px;
+}
+
+
+.read-more {
+    font-family: 'Kanit', sans-serif;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.more-section {
+    background-color: #FFD60A;
+    height: 400px;
+}
+
+.end {
+    margin-top: 100px;
+}
+
+.head-sup {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.sup-text {
+    font-family: 'Kanit', sans-serif;
+}
+
+.read-more1 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.signup {
+    background-image: url(./background/Login\ page\ design.png) ;
+    background-size: cover;
+    max-width: 100%;
+}
+
+
+.form-card {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-title {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.form-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 390px;
+    padding: 10px;
+}
+
+a.login {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 767px) {
+    .more-section {
+      height: 750px;
+    }
+}
